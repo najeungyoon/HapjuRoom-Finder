@@ -1,10 +1,7 @@
 package org.najeungyoon.find_band_room.controller;
 
 import org.najeungyoon.find_band_room.model.StudioDTO;
-import org.najeungyoon.find_band_room.repository.StudioDAO;
 import org.najeungyoon.find_band_room.service.StudioService;
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
