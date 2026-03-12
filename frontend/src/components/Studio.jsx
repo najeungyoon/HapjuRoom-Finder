@@ -1,8 +1,7 @@
 import React from 'react';
-import 'Studio.css'
+import './Studio.css'
 
 const Studio = (params) => {
-
 
     return (
         <div className={"studio-item"}>
