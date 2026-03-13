@@ -4,7 +4,7 @@ public class StudioDTO {
 
     private long id;
     private String name;
-    private String placeKey;
+    private String place_key;
 
     public long getId() {
         return id;
@@ -21,11 +21,11 @@ public class StudioDTO {
         this.name = name;
     }
 
-    public String getPlaceKey() {
-        return placeKey;
+    public String getPlace_key() {
+        return place_key;
     }
 
-    public void setPlaceKey(String placeKey) {
-        this.placeKey = placeKey;
+    public void setPlace_key(String place_key) {
+        this.place_key = place_key;
     }
 }

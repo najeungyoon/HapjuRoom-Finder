@@ -1,5 +1,6 @@
 package org.najeungyoon.find_band_room.controller;
 
+import org.najeungyoon.find_band_room.domain.Studio;
 import org.najeungyoon.find_band_room.model.StudioDTO;
 import org.najeungyoon.find_band_room.service.StudioService;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -24,6 +25,5 @@ public class StudioController {
     public List<StudioDTO> findAllStudios(){
         return studioService.allStudioLists();
     }
-
 
 }

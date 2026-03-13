@@ -9,7 +9,5 @@ import java.util.List;
 @Mapper
 //@Repository
 public interface StudioDAO {
-
     public List<StudioDTO> findAll();
-
 }

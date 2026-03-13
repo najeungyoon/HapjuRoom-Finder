@@ -5,7 +5,7 @@
 <mapper namespace="org.najeungyoon.find_band_room.repository.StudioDAO">
 
     <select id="findAll" resultType="org.najeungyoon.find_band_room.model.StudioDTO">
-        select id, name, placeKey
+        select id, name, place_key
         from studio
     </select>
 
